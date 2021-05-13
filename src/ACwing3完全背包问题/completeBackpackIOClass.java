@@ -17,7 +17,7 @@ public class completeBackpackIOClass {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         bagVolume = sc.nextInt();
-        //一定要注意，输入输出版的背包问题，2个数组都是从第二个数开始填入的
+        //注意，输入输出版的背包问题，2个数组都是从第二个数开始填入的
         for (int i = 1; i <= n; i++) {
             volume[i] = sc.nextInt();
             worth[i] = sc.nextInt();
